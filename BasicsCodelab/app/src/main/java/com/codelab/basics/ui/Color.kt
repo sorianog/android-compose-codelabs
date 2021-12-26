@@ -18,7 +18,7 @@ package com.codelab.basics.ui
 
 import androidx.compose.ui.graphics.Color
 
-val Navy = Color(0xFF073042)
-val Blue = Color(0xFF4285F4)
-val LightBlue = Color(0xFFD7EFFE)
+val White = Color(0xFFFFFFFF)
+val Green = Color(0xFF4CAF50)
+val LightGreen = Color(0xFF8BC34A)
 val Chartreuse = Color(0xFFEFF7CF)

@@ -84,7 +84,9 @@ private fun OnboardingScreen(onContinueClicked: () -> Unit) {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Welcome to the Basics Codelab!")
+            Text("Aloha 🤙🏽")
+            Text("Welcome to the")
+            Text("Jetpack Compose Basics Codelab!")
             Button(
                 modifier = Modifier.padding(vertical = 24.dp),
                 onClick = onContinueClicked
@@ -133,7 +135,7 @@ private fun CardContent(name: String) {
                 .weight(1f)
                 .padding(12.dp)
         ) {
-            Text(text = "Hello, ")
+            Text(text = "Aloha 🤙🏽, ")
             Text(
                 text = name,
                 style = MaterialTheme.typography.h4.copy(
