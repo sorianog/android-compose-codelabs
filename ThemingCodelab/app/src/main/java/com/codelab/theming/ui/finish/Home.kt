@@ -80,7 +80,7 @@ fun Home() {
                     )
                 }
                 item {
-                    Header(stringResource(R.string.popular))
+                    Header(stringResource(R.string.trendy))
                 }
                 items(posts) { post ->
                     PostItem(post = post)

@@ -18,8 +18,8 @@ package com.codelab.theming.ui.finish.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Red200 = Color(0xfff297a2)
-val Red300 = Color(0xffea6d7e)
-val Red700 = Color(0xffdd0d3c)
-val Red800 = Color(0xffd00036)
-val Red900 = Color(0xffc20029)
+val Green200 = Color(0xFFA5D6A7)
+val Green300 = Color(0xFFA5D6A7)
+val Green700 = Color(0xFF388E3C)
+val Green800 = Color(0xFF2E7D32)
+val Green900 = Color(0xFF1B5E20)

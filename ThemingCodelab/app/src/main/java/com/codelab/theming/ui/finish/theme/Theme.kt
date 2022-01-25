@@ -24,22 +24,22 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 private val LightColors = lightColors(
-    primary = Red700,
-    primaryVariant = Red900,
+    primary = Green700,
+    primaryVariant = Green900,
     onPrimary = Color.White,
-    secondary = Red700,
-    secondaryVariant = Red900,
+    secondary = Green700,
+    secondaryVariant = Green900,
     onSecondary = Color.White,
-    error = Red800
+    error = Green800
 )
 
 private val DarkColors = darkColors(
-    primary = Red300,
-    primaryVariant = Red700,
+    primary = Green300,
+    primaryVariant = Green700,
     onPrimary = Color.Black,
-    secondary = Red300,
-    onSecondary = Color.Black,
-    error = Red200
+    secondary = Green300,
+    onSecondary = Color.LightGray,
+    error = Green200
 )
 
 @Composable
